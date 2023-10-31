@@ -26,7 +26,7 @@ export default function Parceiros() {
                 <div className="flex w-full flex-col text-center">
                     <div className="p-10">
                         <h1
-                            className={`${rubik.className} text-bold  text-4xl text-[#1a0f31]`}
+                            className={`${rubik.className} text-bold text-2xl text-[#1a0f31] md:text-4xl`}
                         >
                             Alguns de nossos parceiros
                         </h1>

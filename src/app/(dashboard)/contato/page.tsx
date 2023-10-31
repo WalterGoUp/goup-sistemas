@@ -57,7 +57,7 @@ export default function Contato() {
                             </div>
                         </div>
                     </div>
-                    <div className="hidden rounded-r-md bg-[url('/images/contato.jpg')] bg-cover md:block"></div>
+                    <div className="bg-end hidden rounded-r-md bg-[url('/images/contato.jpg')] bg-cover md:block"></div>
                 </div>
             </div>
         </>
