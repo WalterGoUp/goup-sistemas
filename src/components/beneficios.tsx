@@ -39,7 +39,10 @@ export default function Beneficios() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className="flex flex-col items-end justify-end py-8">
-                        <Typography component="span" className="text-gray-300">
+                        <Typography
+                            component="span"
+                            className="text-xl text-gray-300"
+                        >
                             Treinamento Personalizado
                         </Typography>
 
@@ -62,7 +65,10 @@ export default function Beneficios() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className="py-5 md:py-7">
-                        <Typography component="span" className="text-gray-300">
+                        <Typography
+                            component="span"
+                            className="text-xl text-gray-300"
+                        >
                             Sistema Multisserviços
                         </Typography>
                         <Typography className="hidden w-1/2 text-white md:block">
@@ -84,7 +90,10 @@ export default function Beneficios() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className="flex flex-col items-end justify-end py-8">
-                        <Typography component="span" className="text-gray-300">
+                        <Typography
+                            component="span"
+                            className="text-xl text-gray-300"
+                        >
                             Segurança de Dados
                         </Typography>
                         <Typography className=" hidden  w-1/2 text-white md:block">
@@ -106,7 +115,10 @@ export default function Beneficios() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className=" py-8">
-                        <Typography component="span" className="text-gray-300">
+                        <Typography
+                            component="span"
+                            className="text-xl text-gray-300"
+                        >
                             Melhoria Contínua
                         </Typography>
                         <Typography className="hidden  w-1/2 text-white md:block">

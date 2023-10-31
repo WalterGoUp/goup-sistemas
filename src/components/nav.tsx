@@ -29,6 +29,7 @@ export default function Nav() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
     return (
         <div className="flex w-full items-center justify-around bg-gray-100 p-5">
             <div className="">
@@ -181,7 +182,7 @@ export default function Nav() {
                     </Menu>
                     <Button variant="text">
                         <Link
-                            href={'parceiros'}
+                            href={'#parceiros'}
                             className=" text-[#391a7d] hover:text-[#7b097e]"
                         >
                             <Typography className="font-bold">
