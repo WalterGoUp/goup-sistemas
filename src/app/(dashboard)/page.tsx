@@ -13,8 +13,8 @@ export default function Home() {
                 <Nav />
                 <Carousel />
                 <Serviços />
-                <Beneficios />
                 <Postagem />
+                <Beneficios />
                 <Parceiros />
                 <Footer />
             </div>
