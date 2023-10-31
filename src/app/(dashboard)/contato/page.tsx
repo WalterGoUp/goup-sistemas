@@ -2,7 +2,7 @@ import Typography from '@mui/material/Typography';
 import React, { useState } from 'react';
 import { rubik } from '../layout';
 import Nav from '@/components/nav';
-import { BsFillEnvelopeFill, BsWhatsapp } from 'react-icons/bs';
+import { BsFillEnvelopeFill, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 import { SlLocationPin } from 'react-icons/sl';
 
 export default function Contato() {
@@ -34,12 +34,9 @@ export default function Contato() {
                             </div>
                             <div className="flex items-center gap-2 pb-3 md:gap-3">
                                 <div>
-                                    <SlLocationPin className="text-xl text-[#ffffff]" />
+                                    <BsInstagram className="text-xl text-[#ffffff]" />
                                 </div>
-                                <Typography>
-                                    Rua Itagiba de Oliveira, 250 Barra -
-                                    Muriaé-MG
-                                </Typography>
+                                <Typography>goupsistemas_mg</Typography>
                             </div>
                             <div className="flex items-center gap-2 pb-3 md:gap-3">
                                 <div>
@@ -47,6 +44,15 @@ export default function Contato() {
                                 </div>
                                 <Typography>
                                     contato@goupsistemas.com
+                                </Typography>
+                            </div>
+                            <div className="flex items-center gap-2 pb-3 md:gap-3">
+                                <div>
+                                    <SlLocationPin className="text-xl text-[#ffffff]" />
+                                </div>
+                                <Typography>
+                                    Rua Itagiba de Oliveira, 250 Barra -
+                                    Muriaé-MG - CEP:36884-056
                                 </Typography>
                             </div>
                         </div>
