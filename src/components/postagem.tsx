@@ -12,13 +12,14 @@ export default function Postagem() {
                     Fique por dentro das novidades no Instagram
                 </h1>
             </div>
-
+            <script src="https://snapwidget.com/js/snapwidget.js"></script>
             <iframe
-                src="https://www.juicer.io/api/feeds/goupsistemas_mg/iframe"
-                frameborder="0"
-                width="100%"
-                height="1000"
-                style={{ display: 'block', margin: '0 auto' }}
+                src="https://snapwidget.com/embed/1048628"
+                className="snapwidget-widget"
+                // allowTransparency="true"
+                // frameborder="0"
+                scrolling="no"
+                style={{ border: 'none', overflow: 'hidden', width: '100%' }}
             ></iframe>
         </div>
     );
