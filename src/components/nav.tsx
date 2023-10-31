@@ -49,7 +49,7 @@ export default function Nav() {
             <div
                 className={`md:flex ${
                     isMenuOpen ? 'transition-all duration-1000' : 'hidden'
-                }  flex-col md:flex md:h-full md:justify-between `}
+                }   md:flex md:h-full md:justify-between `}
             >
                 <div
                     className={`md:flex ${
@@ -58,7 +58,7 @@ export default function Nav() {
                             : '' /* Se o menu estiver aberto, use flex-col para empilhar os itens verticalmente */
                     } ${
                         isMenuOpen ? 'transition-all duration-1000' : 'hidden'
-                    } md:flex md:h-full md:flex-col md:justify-between md:bg-none `}
+                    } md:flex md:h-full  md:justify-between md:bg-none `}
                 >
                     <Button variant="text">
                         <Link

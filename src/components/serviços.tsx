@@ -24,7 +24,7 @@ export default function Serviços() {
                     </div>
                     <div className="flex justify-center pt-5">
                         <Link
-                            href="https://api.whatsapp.com/send?phone=32999788128&text=Olá, gostaria de saber mais sobre a GoUp!"
+                            href="https://api.whatsapp.com/send?phone=32991178606&text=Olá, gostaria de saber mais sobre a GoUp!"
                             target="blank"
                         >
                             <Button
