@@ -22,8 +22,11 @@ export default function RootLayout({
 }) {
     return (
         <html lang="pt-br">
-            {/* <Nav /> */}
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+                <Nav />
+                {children}
+                {/* Adicione o rodapé e outros elementos de página aqui, se necessário */}
+            </body>
         </html>
     );
 }

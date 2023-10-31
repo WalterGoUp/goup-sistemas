@@ -8,7 +8,6 @@ import { SlLocationPin } from 'react-icons/sl';
 export default function Contato() {
     return (
         <>
-            <Nav />
             {/* {loading && <Loading />} */}
             <div className="mt-20 flex justify-center">
                 <div className=" grid w-11/12 md:w-3/5 md:grid-cols-2 ">
