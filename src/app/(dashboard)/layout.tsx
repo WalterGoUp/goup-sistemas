@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Rubik } from 'next/font/google';
-import './globals.css';
+import '../globals.css';
 import Nav from '@/components/nav';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -22,6 +22,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="pt-br">
+            {/* <Nav /> */}
             <body className={inter.className}>{children}</body>
         </html>
     );
