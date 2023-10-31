@@ -4,20 +4,21 @@ import React from 'react';
 
 export default function Postagem() {
     return (
-        <div className="p-5">
-            <h1
-                className={`${rubik.className} text-bold mt-6 text-center text-2xl text-[#1a0f31]  md:text-4xl`}
-            >
-                Fique por dentro de todas as novidades
-            </h1>
+        <div>
+            <div className="p-5">
+                <h1
+                    className={`${rubik.className} text-bold text-center text-2xl text-[#1a0f31] md:text-4xl`}
+                >
+                    Fique por dentro das novidades no Instagram
+                </h1>
+            </div>
 
-            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
             <iframe
-                src="//lightwidget.com/widgets/b39e06ce8fdc5e29bd372561b5b2c08a.html"
-                scrolling="no"
-                // allowtransparency="true"
-                className="lightwidget-widget"
-                style={{ width: '100%', border: 0, overflow: 'hidden' }}
+                src="https://www.juicer.io/api/feeds/goupsistemas_mg/iframe"
+                frameborder="0"
+                width="100%"
+                height="1000"
+                style={{ display: 'block', margin: '0 auto' }}
             ></iframe>
         </div>
     );
