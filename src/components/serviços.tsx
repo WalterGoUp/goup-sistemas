@@ -38,7 +38,7 @@ export default function Serviços() {
                     </div>
                 </div>
                 <div className="mt-36 grid w-2/3 grid-cols-1 grid-rows-2 gap-14 md:grid-cols-3 ">
-                    <div className="h-80 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105 sm:h-72">
+                    <div className="h-72 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105  md:h-64">
                         <div className="flex flex-col items-center justify-center gap-3">
                             <Image
                                 src={'/images/sistema.svg'}
@@ -47,7 +47,7 @@ export default function Serviços() {
                                 height={100}
                             />
                             <Typography className="text-center text-xl">
-                                Sistema PDV para frente de caixa
+                                Sistema PDV
                             </Typography>
                             <Typography className="text-center">
                                 Sistema PDV eficiente e integrado, que realiza a
@@ -56,7 +56,7 @@ export default function Serviços() {
                             </Typography>
                         </div>
                     </div>
-                    <div className="  h-72 transform rounded-md p-3  shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105 ">
+                    <div className=" h-72 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)]  shadow-gray-300 transition-transform hover:scale-105 sm:h-72 md:h-64 ">
                         <div className="flex flex-col items-center justify-center gap-3">
                             <Image
                                 src={'/images/add.svg'}
@@ -74,7 +74,7 @@ export default function Serviços() {
                             </Typography>
                         </div>
                     </div>
-                    <div className=" h-72 transform rounded-md p-3  shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105">
+                    <div className="h-72 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300  transition-transform hover:scale-105 sm:h-72 md:h-64">
                         <div className="flex flex-col items-center justify-center gap-3">
                             <Image
                                 src={'/images/papel.svg'}
@@ -92,7 +92,7 @@ export default function Serviços() {
                             </Typography>
                         </div>
                     </div>
-                    <div className=" h-72 transform rounded-md p-3  shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105">
+                    <div className="h-72 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300  transition-transform hover:scale-105 sm:h-72 md:h-64">
                         <div className="flex flex-col items-center justify-center gap-3">
                             <Image
                                 src={'/images/prancheta.svg'}
@@ -104,20 +104,21 @@ export default function Serviços() {
                                 Relatórios completos
                             </Typography>
                             <Typography className="text-center">
-                                Tome decisões estratégicas com base em dados
-                                precisos. Gere relatórios automaticamente e
-                                acompanhe resultados em tempo real.
+                                Decisões estratégicas embasadas em dados
+                                precisos. Gere relatórios automátos e acompanhe
+                                resultados em tempo real.
                             </Typography>
                         </div>
                     </div>
-                    <div className=" h-72 transform rounded-md p-3  shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105">
+                    <div className="h-72 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300  transition-transform hover:scale-105 sm:h-72 md:h-64">
                         <div className="flex flex-col items-center justify-center gap-3 ">
                             <Image
                                 src={'/images/grafico.svg'}
                                 alt={''}
-                                width={80}
-                                height={80}
+                                width={100}
+                                height={100}
                             />
+
                             <Typography className="text-center text-xl">
                                 Controle financeiro
                             </Typography>
@@ -128,7 +129,7 @@ export default function Serviços() {
                             </Typography>
                         </div>
                     </div>
-                    <div className=" h-72 transform  rounded-md  p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105">
+                    <div className="h-72 transform rounded-md p-3  shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)]  shadow-gray-300 transition-transform hover:scale-105 sm:h-72 md:h-64">
                         <div className="flex flex-col items-center justify-center gap-3">
                             <Image
                                 src={'/images/tablet.svg'}

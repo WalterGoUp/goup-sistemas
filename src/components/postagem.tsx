@@ -14,8 +14,8 @@ export default function Postagem() {
             </div>
             <script src="https://snapwidget.com/js/snapwidget.js"></script>
             <iframe
-                src="https://snapwidget.com/embed/1048653"
-                className="snapwidget-widget"
+                src="https://snapwidget.com/embed/1048706"
+                className="snapwidget-widget p-10"
                 // allowtransparency="true"
                 // frameborder="0"
                 scrolling="no"
