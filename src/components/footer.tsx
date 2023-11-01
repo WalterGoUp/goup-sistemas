@@ -22,14 +22,16 @@ export default function Footer() {
                     GoUp: Sua parceira no caminho do sucesso.
                 </h1>
                 <div className="flex w-1/2 justify-center border-b-2 border-gray-300 p-6">
-                    <Image
-                        src="/images/semfundo.png"
-                        quality={100}
-                        priority={true}
-                        width={90}
-                        height={100}
-                        alt="Logomarca GoUp"
-                    />
+                    <Link href={'/'}>
+                        <Image
+                            src="/images/semfundo.png"
+                            quality={100}
+                            priority={true}
+                            width={90}
+                            height={100}
+                            alt="Logomarca GoUp"
+                        />
+                    </Link>
                 </div>
                 <div>
                     <Typography className="p-3">

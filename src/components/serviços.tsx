@@ -7,7 +7,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 export default function Serviços() {
     return (
-        <div className="  ">
+        <div className="">
             <div className="flex h-full w-full justify-center">
                 <div className="absolute -m-80 flex h-1/3 w-4/5 flex-col rounded-xl md:-m-32 md:w-2/3 ">
                     <Typography

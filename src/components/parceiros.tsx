@@ -165,7 +165,7 @@ export default function Parceiros() {
                             </div>
                             <div>
                                 <Image
-                                    src="/images/mansaos.jpg"
+                                    src="/images/gastro-mansao.jpg"
                                     quality={100}
                                     priority={true}
                                     width={200}
@@ -206,7 +206,7 @@ export default function Parceiros() {
                             </div>
                             <div>
                                 <Image
-                                    src="/images/paulu.jpg"
+                                    src="/images/hamburgueria-paulus.jpg"
                                     quality={100}
                                     priority={true}
                                     width={200}

@@ -172,12 +172,12 @@ export default function Nav() {
                     </div>
                 </Menu>
                 <Button variant="text">
-                    <Link
+                    <a
                         href={'#parceiros'}
-                        className=" text-[#391a7d] hover:text-[#7b097e]"
+                        className=" text-[#391a7d] transition-all duration-1000 ease-out hover:text-[#7b097e]"
                     >
                         <Typography className="font-bold">Parceiros</Typography>
-                    </Link>
+                    </a>
                 </Button>
                 <Button variant="text">
                     <Link
