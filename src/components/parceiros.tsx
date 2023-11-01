@@ -10,7 +10,7 @@ export default function Parceiros() {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 3000,
+        speed: 5000,
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,

@@ -41,7 +41,7 @@ export default function Beneficios() {
                     <TimelineContent className="flex flex-col items-end justify-end py-8">
                         <Typography
                             component="span"
-                            className="text-xl text-gray-300"
+                            className="text-base text-gray-300 sm:text-xl"
                         >
                             Treinamento Personalizado
                         </Typography>
@@ -67,7 +67,7 @@ export default function Beneficios() {
                     <TimelineContent className="py-5 md:py-7">
                         <Typography
                             component="span"
-                            className="text-xl text-gray-300"
+                            className="text-base text-gray-300 sm:text-xl"
                         >
                             Sistema Multisserviços
                         </Typography>
@@ -92,7 +92,7 @@ export default function Beneficios() {
                     <TimelineContent className="flex flex-col items-end justify-end py-8">
                         <Typography
                             component="span"
-                            className="text-xl text-gray-300"
+                            className="text-base text-gray-300 sm:text-xl"
                         >
                             Segurança de Dados
                         </Typography>
@@ -117,7 +117,7 @@ export default function Beneficios() {
                     <TimelineContent className=" py-8">
                         <Typography
                             component="span"
-                            className="text-xl text-gray-300"
+                            className="text-base text-gray-300 sm:text-xl"
                         >
                             Melhoria Contínua
                         </Typography>

@@ -9,7 +9,7 @@ export default function Serviços() {
     return (
         <div className="">
             <div className="flex h-full w-full justify-center">
-                <div className="absolute -m-80 flex h-1/3 w-4/5 flex-col rounded-xl md:-m-32 md:w-2/3 ">
+                <div className="absolute -m-64 flex h-1/3 w-4/5 flex-col rounded-xl sm:-m-80 md:-m-32 md:w-2/3 ">
                     <Typography
                         className={`${rubik.className} text-extrabold  text-center text-2xl font-semibold text-[#2a194f] md:p-5 md:text-3xl`}
                     >
@@ -38,7 +38,7 @@ export default function Serviços() {
                     </div>
                 </div>
                 <div className="mt-36 grid w-2/3 grid-cols-1 grid-rows-2 gap-14 md:grid-cols-3 ">
-                    <div className=" h-72 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105">
+                    <div className="h-80 transform rounded-md p-3 shadow-[0px_0px_12px_0px_rgba(0,0,0,0.2)] shadow-gray-300 transition-transform hover:scale-105 sm:h-72">
                         <div className="flex flex-col items-center justify-center gap-3">
                             <Image
                                 src={'/images/sistema.svg'}
