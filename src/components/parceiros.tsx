@@ -10,8 +10,8 @@ export default function Parceiros() {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 6000,
-        slidesToShow: 4,
+        speed: 3000,
+        slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 10,
@@ -35,72 +35,293 @@ export default function Parceiros() {
                         <Slider {...settings}>
                             <div>
                                 <Image
-                                    src="/images/loja7.jpg"
+                                    src="/images/agroboi.jpg"
                                     quality={100}
                                     priority={true}
-                                    width={300}
-                                    height={201}
-                                    alt="Logomarca Angulo Coin"
+                                    width={200}
+                                    height={200}
+                                    alt="Agroboi"
                                 />
                             </div>
                             <div>
                                 <Image
-                                    src="/images/loja5.jpg"
+                                    src="/images/borracha.jpg"
                                     quality={100}
                                     priority={true}
-                                    width={300}
-                                    height={201}
-                                    alt="Logomarca Angulo Coin"
+                                    width={200}
+                                    height={200}
+                                    alt="Shoping da borracha"
                                 />
                             </div>
                             <div>
                                 <Image
-                                    src="/images/loja4.jpg"
+                                    src="/images/casarao.jpg"
                                     quality={100}
                                     priority={true}
-                                    width={300}
-                                    height={201}
-                                    alt="Logomarca Angulo Coin"
+                                    width={200}
+                                    height={200}
+                                    alt="Casarão"
                                 />
                             </div>
                             <div>
                                 <Image
-                                    src="/images/loja6.jpg"
+                                    src="/images/embalagens.jpg"
                                     quality={100}
                                     priority={true}
-                                    width={300}
-                                    height={201}
-                                    alt="Logomarca Angulo Coin"
+                                    width={200}
+                                    height={200}
+                                    alt="Embalagens"
                                 />
                             </div>
                             <div>
                                 <Image
-                                    src="/images/loja3.jpg"
+                                    src="/images/emes.jpg"
                                     quality={100}
                                     priority={true}
-                                    width={300}
-                                    height={201}
-                                    alt="Logomarca Angulo Coin"
+                                    width={200}
+                                    height={200}
+                                    alt="Emes"
                                 />
                             </div>
                             <div>
                                 <Image
-                                    src="/images/loja2.jpg"
+                                    src="/images/guarino.jpg"
                                     quality={100}
                                     priority={true}
-                                    width={300}
-                                    height={201}
-                                    alt="Logomarca Angulo Coin"
+                                    width={200}
+                                    height={200}
+                                    alt="Casas guarino"
                                 />
                             </div>
                             <div>
                                 <Image
-                                    src="/images/loja1.jpg"
+                                    src="/images/hortilar.jpg"
                                     quality={100}
                                     priority={true}
-                                    width={300}
-                                    height={201}
-                                    alt="Logomarca Angulo Coin"
+                                    width={200}
+                                    height={200}
+                                    alt="hortilar"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/kassia.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="Hortilar"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/fielgas.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="fielgas"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/kiferro.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="ki-ferro"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/kuelhos.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="kuelhos"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/lacerda.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="lacerda"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/luzcolor.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="luzcolor"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/mansaos.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="mansao"
+                                />
+                            </div>
+
+                            <div>
+                                <Image
+                                    src="/images/marquinho.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="marquinho oticas"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/mc.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="mc criacoes"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/nossa-otica.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="Fiel-gas"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/paulu.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="Paulus"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/barra-shop.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="Barra shoes"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/pietro.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="san pietro "
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/quimio.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="quimio"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/silvinho.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="silvinho"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/soleneve.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="soleneve"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/varanda.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="restaurante varanda"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/ylafrut.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="ylafrut"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/plastic.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="Marquinhos otica"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/emporio.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="emporio"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/mfc.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="mfc esportes"
+                                />
+                            </div>
+                            <div>
+                                <Image
+                                    src="/images/bokas.jpg"
+                                    quality={100}
+                                    priority={true}
+                                    width={200}
+                                    height={200}
+                                    alt="otica"
                                 />
                             </div>
                         </Slider>
