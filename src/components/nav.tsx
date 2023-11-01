@@ -44,13 +44,15 @@ export default function Nav() {
             </div>
             <div className="md:hidden">
                 <Button onClick={toggleMenu}>
-                    <FiMenu className="  hover:scale-120 text-2xl text-[#391a7d] transition-transform hover:text-[#7b097e]" />
+                    <FiMenu className=" hover:scale-120 absolute text-2xl text-[#391a7d] transition-transform hover:text-[#7b097e]" />
                 </Button>
             </div>
             <div
                 className={`md:flex ${
-                    isMenuOpen ? 'transition-all duration-1000' : 'hidden'
-                } rounded-b-lg bg-gradient-to-b from-[#645e71] to-[#f0e7f5] md:flex md:h-full  md:bg-none `}
+                    isMenuOpen
+                        ? ' relative flex flex-col transition-all duration-1000'
+                        : 'hidden'
+                }  rounded-b-lg bg-gradient-to-b from-[#645e71] to-[#f0e7f5] md:flex  md:h-full md:bg-none`}
             >
                 <Button variant="text">
                     <Link
