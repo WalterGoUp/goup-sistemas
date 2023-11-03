@@ -10,7 +10,7 @@ export const rubik = Rubik({
     display: 'swap',
 });
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
     title: 'GoUp | Gestão de sistemas',
     description: 'GoUp gestão de sistemas',
 };

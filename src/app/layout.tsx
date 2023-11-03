@@ -10,10 +10,10 @@ export const rubik = Rubik({
     display: 'swap',
 });
 
-const metadata: Metadata = {
-    title: 'GoUp | Gestão de sistemas',
-    description: 'GoUp gestão de sistemas',
-};
+// export const metadata: Metadata = {
+//     title: 'GoUp | Gestão de sistemas',
+//     description: 'GoUp gestão de sistemas',
+// };
 
 export default function RootLayout({
     children,
