@@ -12,13 +12,25 @@ export default function Postagem() {
                     Fique por dentro das novidades no Instagram
                 </h1>
             </div>
-            <script src="https://snapwidget.com/js/snapwidget.js"></script>
-            <iframe
+            {/* <script src="https://snapwidget.com/js/snapwidget.js"></script> */}
+            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+            {/* <iframe
                 src="https://snapwidget.com/embed/1048706"
                 className="snapwidget-widget p-10"
                 // allowtransparency="true"
                 // frameborder="0"
                 scrolling="no"
+                style={{
+                    border: 'none',
+                    overflow: 'hidden',
+                    width: '100%',
+                }}
+            ></iframe> */}
+            <iframe
+                src="//lightwidget.com/widgets/e90b017a209a5cc7a0df4bbefc6fa6be.html"
+                scrolling="no"
+                // allowtransparency="true"
+                className="lightwidget-widget p-2"
                 style={{
                     border: 'none',
                     overflow: 'hidden',
