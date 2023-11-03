@@ -31,28 +31,29 @@ export default function Nav() {
     };
 
     return (
-        <div className="flex w-full items-center justify-around bg-gray-100 p-5">
+        <div className="  flex w-full  items-center justify-between bg-gray-100 p-5">
             <div className="">
                 <Link href={'/'}>
                     <Image
                         src="/images/logo.png"
                         alt="Logo"
-                        width={130}
+                        width={100}
                         height={100}
                     />
                 </Link>
             </div>
             <div className="md:hidden">
                 <Button onClick={toggleMenu}>
-                    <FiMenu className=" hover:scale-120 absolute text-2xl text-[#391a7d] transition-transform hover:text-[#7b097e]" />
+                    <FiMenu className=" hover:scale-120  text-2xl text-[#391a7d] transition-transform hover:text-[#7b097e]" />
                 </Button>
             </div>
+
             <div
-                className={`md:flex ${
+                className={` flex ${
                     isMenuOpen
-                        ? ' relative flex flex-col transition-all duration-1000'
+                        ? 'duration-2000 flex flex-col transition-all'
                         : 'hidden'
-                }  rounded-b-lg bg-gradient-to-b from-[#645e71] to-[#f0e7f5] md:flex  md:h-full md:bg-none`}
+                } absolute left-0 top-20 z-10 flex w-full rounded-b-lg bg-gray-100 md:flex md:flex-row `}
             >
                 <Button variant="text">
                     <Link
@@ -68,8 +69,7 @@ export default function Nav() {
                     aria-controls={open ? 'basic-menu' : undefined}
                     aria-haspopup="true"
                     aria-expanded={open ? 'true' : undefined}
-                    // onClick={handleClick}
-                    onMouseEnter={handleClick}
+                    onClick={handleClick}
                     className="  text-[#391a7d] hover:text-[#7b097e]"
                 >
                     <Typography className="font-bold">Serviços</Typography>
