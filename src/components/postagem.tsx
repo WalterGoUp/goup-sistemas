@@ -22,7 +22,6 @@ export default function Postagem() {
                     width: '100%',
                 }}
             ></iframe>
-          
         </div>
     );
 }
