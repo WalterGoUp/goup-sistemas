@@ -1,13 +1,13 @@
-import type { Metadata } from 'next';
-import { Inter, Rubik } from 'next/font/google';
-import './globals.css';
-import Nav from '@/components/nav';
+import type { Metadata } from "next";
+import { Inter, Rubik } from "next/font/google";
+import "./globals.css";
+import Nav from "@/components/nav";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 export const rubik = Rubik({
-    weight: ['300', '400', '500', '600', '700', '800'],
-    subsets: ['latin'],
-    display: 'swap',
+  weight: ["300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 // export const metadata: Metadata = {
@@ -16,13 +16,13 @@ export const rubik = Rubik({
 // };
 
 export default function RootLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }) {
-    return (
-        <html lang="pt-br">
-            <body className={inter.className}>{children}</body>
-        </html>
-    );
+  return (
+    <html lang="pt-br">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
 }
