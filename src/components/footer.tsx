@@ -19,7 +19,7 @@ export default function Footer() {
                 <h1
                     className={`${rubik.className} text-bold  mt-6 text-2xl text-[#1a0f31] md:text-4xl`}
                 >
-                    GoUp: Sua parceira no caminho do sucesso.
+                    Go Up: Sua parceira no caminho do sucesso.
                 </h1>
                 <div className="flex w-1/2 justify-center border-b-2 border-gray-300 p-6">
                     <Link href={'/'}>
@@ -29,7 +29,7 @@ export default function Footer() {
                             priority={true}
                             width={90}
                             height={100}
-                            alt="Logomarca GoUp"
+                            alt="Logomarca Go Up"
                         />
                     </Link>
                 </div>
@@ -61,7 +61,7 @@ export default function Footer() {
                 <div className="w-full bg-[#391a7d]">
                     <Typography className="text-white">
                         <AiOutlineCopyright className="inline text-white" />{' '}
-                        2023 GoUp - Todos os direitos reservados
+                        2023 Go Up - Todos os direitos reservados
                     </Typography>
                 </div>
             </div>

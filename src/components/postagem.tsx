@@ -6,7 +6,7 @@ import React from "react";
 export default function Postagem() {
   return (
     <div className="mt-14">
-      <div className="p-5">
+        <div className="p-5">
         <h1
           className={`${rubik.className} text-bold text-center text-2xl text-[#1a0f31] md:text-4xl`}
         >

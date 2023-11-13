@@ -13,18 +13,18 @@ export default function Serviços() {
                     <Typography
                         className={`${rubik.className} text-extrabold  text-center text-2xl font-semibold text-[#2a194f] md:p-5 md:text-3xl`}
                     >
-                        GoUp atende às demandas específicas do seu negócio de
+                        Go Up atende às demandas específicas do seu negócio de
                         forma abrangente.
                     </Typography>
                     <div className="pt-4 text-center ">
                         <Typography className="text-lg text-black">
-                            Descubra como a GoUp pode impulsionar o seu sucesso
+                            Descubra como a Go Up pode impulsionar o seu sucesso
                             hoje mesmo!
                         </Typography>
                     </div>
                     <div className="flex justify-center pt-5">
                         <Link
-                            href="https://api.whatsapp.com/send?phone=32999245031&text=Olá, gostaria de saber mais sobre a GoUp!"
+                            href="https://api.whatsapp.com/send?phone=32999245031&text=Olá, gostaria de saber mais sobre a Go Up!"
                             target="blank"
                         >
                             <Button

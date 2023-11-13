@@ -24,7 +24,7 @@ export default function Beneficios() {
             <h1
                 className={`${rubik.className} text-semibold  pt-5 text-center text-2xl text-white md:text-4xl`}
             >
-                Veja todos os benefícios de ter o <br /> GoUp na sua empresa!
+                Veja todos os benefícios de ter o <br /> Go Up na sua empresa!
             </h1>
             <Timeline position="alternate-reverse">
                 <TimelineItem>
@@ -72,7 +72,7 @@ export default function Beneficios() {
                             Sistema Multisserviços
                         </Typography>
                         <Typography className="hidden w-1/2 text-white md:block">
-                            A GoUp oferece um Sistema Multisserviços que atende
+                            A Go Up oferece um Sistema Multisserviços que atende
                             a todas as necessidades do seu negócio em um só
                             lugar.
                         </Typography>
@@ -122,7 +122,7 @@ export default function Beneficios() {
                             Melhoria Contínua
                         </Typography>
                         <Typography className="hidden  w-1/2 text-white md:block">
-                            A GoUp evolui constantemente para atender às suas
+                            A Go Up evolui constantemente para atender às suas
                             necessidades em constante mudança.
                         </Typography>
                     </TimelineContent>

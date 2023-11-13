@@ -72,7 +72,7 @@ export default function Nav() {
                         onClick={handleClick}
                         className="  text-[#391a7d] hover:text-[#7b097e]"
                     >
-                        <Typography className="font-bold">Serviços</Typography>
+                        <Typography className="font-bold">Segmentos</Typography>
                     </Button>
                     <Menu
                         id="basic-menu"
