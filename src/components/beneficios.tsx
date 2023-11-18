@@ -15,7 +15,7 @@ import { FaLock, FaTools, FaSortAmountUpAlt, FaBook } from "react-icons/fa"
 export default function Beneficios() {
     return (
         <div
-            className=" mt-20  bg-center bg-no-repeat md:bg-cover"
+            className=" mt-20  bg-center bg-no-repeat bg-auto"
             style={{
                 backgroundImage:
                     ' linear-gradient(265deg, rgba(57,26,125,0.9) , rgba(57,26,125,0.9)  ), url("/images/project.png") '
