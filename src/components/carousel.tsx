@@ -1,14 +1,11 @@
 "use client"
-import React, { useRef, useState } from "react"
+import React, { useRef } from "react"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
-import Typography from "@mui/material/Typography"
 import Button from "@mui/material/Button"
 import { rubik } from "../app/layout"
-
 import Link from "next/link"
-import { FaAngleRight, FaAngleLeft } from "react-icons/fa"
 
 export default function Carousel() {
     const sliderRef = useRef(null)

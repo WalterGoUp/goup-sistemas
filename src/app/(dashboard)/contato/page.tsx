@@ -1,14 +1,12 @@
 /* eslint-disable prettier/prettier */
 "use client"
 import Typography from "@mui/material/Typography"
-import React, { useState } from "react"
-import { rubik } from "../layout"
-import Nav from "@/components/nav"
+import React from "react"
 import { BsFillEnvelopeFill, BsInstagram, BsWhatsapp } from "react-icons/bs"
 import { SlLocationPin } from "react-icons/sl"
 import Link from "next/link"
-import Map from "@/components/map"
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api"
+import { rubik } from "@/app/layout"
 
 export default function Contato() {
     const { isLoaded } = useJsApiLoader({

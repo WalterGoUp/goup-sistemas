@@ -1,32 +1,17 @@
-import type { Metadata } from "next";
-import { Inter, Rubik } from "next/font/google";
-import "../globals.css";
-import Nav from "@/components/nav";
+import type { Metadata } from "next"
+import Nav from "@/components/nav"
 
-const inter = Inter({ subsets: ["latin"] });
-export const rubik = Rubik({
-  weight: ["300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"],
-  display: "swap",
-});
+export const metadata: Metadata = {
+    title: "Go Up | Gestão de sistemas",
+    description:
+        "Transforme a complexidade em simplicidade: potencialize seu negócio com nossa solução ERP, onde cada desafio se torna uma oportunidade e cada operação é otimizada para o sucesso sustentável. "
+}
 
-// export const metadata: Metadata = {
-//     title: 'GoUp | Gestão de sistemas',
-//     description: 'GoUp gestão de sistemas',
-// };
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="pt-br">
-      <body className={inter.className}>
-        <Nav />
-        {children}
-        {/* Adicione o rodapé e outros elementos de página aqui, se necessário */}
-      </body>
-    </html>
-  );
+export default function Layout({ children }: { children: React.ReactNode }) {
+    return (
+        <>
+            <Nav />
+            {children}
+        </>
+    )
 }
