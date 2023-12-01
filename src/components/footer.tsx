@@ -44,6 +44,17 @@ export default function Footer() {
                     <Typography className="text-white">
                         <AiOutlineCopyright className="inline text-white" /> 2023 Go Up - Todos os direitos reservados
                     </Typography>
+                    <div className="flex items-center justify-center gap-1 ">
+                        <div>
+                           <Typography className="text-white">Desenvolvido por </Typography>
+                        </div>
+                        <Link
+                            href="https://api.whatsapp.com/send?phone=32999788128&text=Olá, gostaria de um orçamento!"
+                            target="blank"
+                            className="flex items-center justify-center  text-white">
+                                <Typography className=" text-white hover:underline">David Cardoso</Typography>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
