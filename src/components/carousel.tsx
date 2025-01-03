@@ -66,7 +66,7 @@ export default function Carousel() {
                         className="flex h-1/2 flex-col justify-center bg-cover bg-no-repeat  p-5 md:h-3/4"
                         style={{
                             backgroundImage:
-                                ' linear-gradient(265deg, rgba(57,26,125,0.9)40%, transparent 90%), url("/images/pc.jpg") '
+                                ' linear-gradient(265deg, rgba(57,26,125,0.9)40%, transparent 90%), url("/images/img-novaa.jpg") '
                         }}>
                         <div className="relative grid grid-cols-2">
                             <div className="relative col-span-1">{/* Conteúdo da primeira coluna */}</div>

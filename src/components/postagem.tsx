@@ -11,16 +11,8 @@ export default function Postagem() {
                     Fique por dentro das novidades no Instagram
                 </h1>
             </div>
-            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-            <iframe
-                src="https://cdn.lightwidget.com/widgets/76166597393f5d2e8dbffa1604329cad.html"
-                scrolling="no"
-                // allowtransparency="true"
-                className="lightwidget-widget px-2"
-                style={{
-                    overflow: "hidden",
-                    width: "100%"
-                }}></iframe>
+            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+            <div className="elfsight-app-512d6e18-afcb-4cab-9d78-2251ab612275" data-elfsight-app-lazy></div>
         </div>
     )
 }
